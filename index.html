@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+
+        <!-- EB Garamond Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+        
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+         <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div class="container-fluid px-0">
+            <!-- Navbar-->
+            <nav class="navbar nav-tabs fixed-top navbar-expand-lg navbar-light shadow" 
+                 style="background-color: #aedbff">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <div class="container">Charles Joseph Ballesteros</div>
+                    </a>
+                    <button 
+                      type="button" 
+                      class="navbar-toggler"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-label="Toggle navigation"
+                      aria-expanded="false"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="container px-3">
+                        <div class= "collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link me-lg-3" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-lg-3" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-lg-3" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link me-lg-3" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar-->
+
+            <!-- Hero Section -->
+            <header class="py-5 bg-light">
+                <div class="container px-5">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5 col-xxl-6 justify-content-center">
+                            <img class="img-fluid rounded-3 my-5" src="images/the_real.jpeg" alt="hell yeah">
+                        </div>
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5">
+                                <h2 class="text-center fw-bold mb-2">Hi, my name is CJ.</h2>
+                                <h2 class="text-center fw-bold mb-2" style="color: #6fb0e6">Computer Science Major</h2>
+                                <p class="lead text-muted text-center mb-4">
+                                    I am an aspiring software engineer and student.
+                                </p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                                    <a class ="btn btn-large text-uppercase" href="#about" 
+                                       style="background-color: #aedbff">
+                                        Learn More.
+                                        <span class="material-symbols-outlined me-1">help_outline</span>
+                                    </a>
+                                    <a class ="btn btn-outline-dark btn-large text-uppercase" href="#projects">
+                                        Some projects.
+                                        <span class="material-symbols-outlined me-1">manage_search</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- End Hero -->
+
+            <main>
+                <!-- About -->
+                <section id="about" class="text-center py-5">
+                    <!-- <div class="container py-5">
+                        <div class="row justify-content-center">
+                            <h2 class="fw-bold">About</h2>
+                            <p class="lead text-muted mb-5">
+                                I really don't know what I'm doing, but I hope to soon.
+                            </p>
+                        </div>
+                    </div> -->
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container bg-light py-4">
+                            <h1 class="display-5"><strong>About me</strong></h1>
+                            <p class ="lead text-start mx-5 fs-4">Born and raised in Las Vegas, my passion for
+                                coding was discovered in high school, but fully manifested in college. Since then,
+                                I've been working to become a fullstack developer with a focus towards the backend.
+                            </p>
+                            <p class ="lead text-start mx-5 fs-4"> While I'm still exploring languages and technologies
+                                in order to find my specialty, here you can find a record of my projects and experience.
+                                And of course, this website will be updated with any new accomplishments.
+
+                            </p>
+                            <hr class="my-4">
+                        </div>
+                    </div>
+                </section>
+                <!-- End About-->
+
+                <!-- Projects -->
+                <section id="projects" class="text-center py-5 bg-light">
+                    <div class="container py-5">
+                        <div class="row justify-content-center">
+                            <h2 class="fw-bold">Projects</h2>
+                            <p class="lead text-muted mb-3">
+                                To be continued...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container mb-5">
+                        <div class="row">
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="card h-100 shadow-lg border-0 bg-light">
+                                    <img class="card-img-top" src="images/connect_4.png" alt="Connect 4">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title mb-3">Connect 4</h5>
+                                        <div class="mb-2">
+                                            <div class="badge bg-primary rounded-pill">C++</div>
+                                        </div>
+                                        <p class="card-text">
+                                            Connect 4 played in terminal and coded in C++. Board is
+                                            made up of only linked lists as a challenge.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent mb-3">
+                                        <a 
+                                         class="btn btn-outline-primary btn-sm text-uppercase"
+                                         href="https://github.com/cj-ballesteros/terminal_connect4" 
+                                         target="_blank">
+                                            <span class="material-symbols-outlined me-1">code</span>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="card h-100 shadow-lg border-0 bg-light">
+                                    <img class="card-img-top" src="images/informative_website.png" alt="Informative Website">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title mb-3">Informative Website</h5>
+                                        <div class="mb-2">
+                                            <div class="badge bg-primary rounded-pill">HTML</div>
+                                            <div class="badge bg-primary rounded-pill">CSS</div>
+                                            <div class="badge bg-primary rounded-pill">JavaScript</div>
+                                        </div>
+                                        <p class="card-text">
+                                            Here's one of the websites I made in high school for class.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent mb-3">
+                                        <a 
+                                         class="btn btn-outline-primary btn-sm text-uppercase"
+                                         href="https://github.com/cj-ballesteros/cj-ballesteros.github.io" 
+                                         target="_blank">
+                                            <span class="material-symbols-outlined me-1">code</span>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mx-auto mb-5">
+                                <div class="card h-100 shadow-lg border-0 bg-light">
+                                    <img class="card-img-top" src="images/Portfolio_Website.png" alt="Sick Website">
+                                    <div class="card-body p-4">
+                                        <h5 class="card-title mb-3">Portfolio Website</h5>
+                                        <div class="mb-2">
+                                            <div class="badge bg-primary rounded-pill">HTML</div>
+                                            <div class="badge bg-primary rounded-pill">CSS</div>
+                                        </div>
+                                        <p class="card-text">
+                                            The website you're looking at now. This project will likely
+                                            be replaced by something else soon.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer bg-transparent mb-3">
+                                        <a 
+                                         class="btn btn-outline-primary btn-sm text-uppercase"
+                                         href="https://github.com/cj-ballesteros" 
+                                         target="_blank">
+                                            <span class="material-symbols-outlined me-1">code</span>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Projects-->
+
+                <!-- Contact-->
+                <section id="contact" class="text-center py-3">
+                    <div class="container py-5">
+                        <div class="row justify-content-center">
+                            <h2 class="fw-bold">Contact</h2>
+                            <p class="lead text-muted mb-1">
+                                Here are some helpful resources about me.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container mb-5">
+                        <div class="row">
+                            <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5 py-5">
+                                <div class="mb-5">
+                                    <h6 class="text-uppercase mb-2">Github</h6>
+                                    <p class="lead mb-0"><a href="https://github.com/cj-ballesteros">
+                                        github.com/cj-ballesteros</a></p>
+                                </div>
+                                <div class="mb-5">
+                                    <h6 class="text-uppercase mb-2">Email</h6>
+                                    <p class="lead mb-0">cjosephballesteros(at)gmail(dot)com</p>
+                                </div>
+                                <div class="mb-5">
+                                    <h6 class="text-uppercase mb-2">Resume</h6>
+                                    <button type="button" class="btn btn-light btn-md" 
+                                     data-toggle="button" 
+                                     aria-pressed="false" 
+                                     autocomplete="off"
+                                     style = "background-color: #aedbff;">
+                                        <p class="lead mb-0">
+                                        <a href="images/october_resume.pdf" 
+                                           download="october_resume"
+                                           style="text-decoration: none; color:black">
+                                        DOWNLOAD <span class="material-symbols-outlined">
+                                            download
+                                            </span></a></p>
+                                        
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5">
+                                <div class="mb-5">
+                                    <img class="img-fluid rounded-3 w-100 p-3" 
+                                    src="images/frieren-beyond-journey's-end.gif" 
+                                    alt="frieren at the funeral">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- End Contacts-->
+        </main>
+        </div>
+
+        <!-- Footer-->
+        <footer class="text-center py-4">
+            <div class="container px-5 mb-2">
+                Copyright &copy; 2023 CJ Ballesteros.
+            </div>
+        </footer>
+        <!-- End Footer-->
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <!-- Custom JavaScript-->
+        <script src="js/scripts.js"></script>
+    </body>
+
+
+</html>
